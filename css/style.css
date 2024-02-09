@@ -6,3 +6,46 @@ html {
 *::before {
   box-sizing: inherit;
 }
+
+/* font-family: "Roboto Condensed", sans-serif; */
+/* font-family: "PT Serif", serif; */
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  text-align: center;
+}
+
+.header__logo {
+  padding: 88px 0 60px;
+}
+
+.menu {
+  border-top: 2px solid rgb(196, 196, 196);
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+}
+
+.menu__list-item {
+  width: 300px;
+}
+
+.menu__list-link {
+  color: rgb(136, 136, 136);
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  display: block;
+  padding: 34px 10px 38px;
+  border-left: 1px solid rgb(196, 196, 196);
+  border-right: 1px solid rgb(196, 196, 196);
+}

@@ -48,4 +48,30 @@ body {
   padding: 34px 10px 38px;
   border-left: 1px solid rgb(196, 196, 196);
   border-right: 1px solid rgb(196, 196, 196);
+  transition: all 0.3s;
+}
+
+.menu__list-link--active,
+.menu__list-link:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.menu__list-item:first-child {
+  border-left: 1px solid rgb(196, 196, 196);
+}
+
+.menu__list-item:last-child {
+  border-right: 1px solid rgb(196, 196, 196);
+}
+
+.slider__item {
+  background-image: url(../images/slider-item.jpeg);
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.slider {
 }

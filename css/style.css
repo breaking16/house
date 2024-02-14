@@ -313,8 +313,11 @@ body {
   margin-bottom: 27px;
 }
 
+.our-managers {
+  width: 298px;
+}
+
 .our-managers__items {
-  width: 297px;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -369,4 +372,60 @@ body {
 
 .reviews {
   width: 300px;
+}
+
+.reviews__img {
+  width: 300px;
+  height: 127px;
+  margin-bottom: 22px;
+  object-fit: cover;
+}
+
+.reviews__text {
+  line-height: 21px;
+  margin-bottom: 22px;
+}
+
+.reviews__link {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  padding: 16px 21px;
+  line-height: 18px;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+}
+
+.footer {
+}
+
+.footer__top {
+  padding: 100px 0;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.footer__top-inner {
+  display: flex;
+  align-items: center;
+}
+
+.footer__menu-list {
+  list-style: none;
+  width: 250px;
+  margin-right: 50px;
+}
+
+.footer__menu-link {
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.footer__form-label {
+  color: rgb(136, 136, 136);
+  line-height: 18px;
+  margin-right: 10px;
 }
